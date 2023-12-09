@@ -37,6 +37,35 @@ There should be a folder named `submissions` in the root of your repository. Thi
 
 You have to submit an excel assessment along with your python task. This evaluation tests your proficiency in Conditional Formatting, Excel Formulae, and Data Manipulation
 
+ ## Excel Dataset 
+  ### Output
+  ![op1](readme_task_images/excel-assignment-dataset.png)
+  
+
+ ## Excel Task1 
+  ### Output
+  ![op2](readme_task_images/excel-assignment-task1.png)
+
+ ## Excel Task2 
+   ### Output
+  ![op3](readme_task_images/excel-assignment-task2.png)
+
+ ## Excel Task3 
+   ### Output
+  ![op4](readme_task_images/excel-assignment-task3.png)
+
+ ## Excel Task4 
+   ### Output
+  ![op5](readme_task_images/excel-assignment-task4.png)
+
+ ## Excel Task5 
+   ### Output
+  ![op6](readme_task_images/excel-assignment-task5.png)
+
+
+ 
+
+
 
 # Python Task 1
 
@@ -50,6 +79,12 @@ Under the function named `generate_car_matrix` write a logic that takes the `dat
 Sample result dataframe:\
  ![Task 1 Question 1](readme_images/task1-q1.png)
 
+ ## Answer :
+ ![function1](readme_task_images/python-task1_function1.png)
+
+   #### Output
+  ![output1](readme_task_images/python-task1_output1.png)
+
 
 ## Question 2: Car Type Count Calculation
 Create a Python function named `get_type_count` that takes the `dataset-1.csv` as a DataFrame. Add a new categorical column `car_type` based on values of the column `car`:
@@ -59,13 +94,31 @@ Create a Python function named `get_type_count` that takes the `dataset-1.csv` a
 
 Calculate the count of occurrences for each `car_type` category and return the result as a dictionary. Sort the dictionary alphabetically based on keys.
 
+ ## Answer :
+ ![function2](readme_task_images/python-task1_function2.png)
+ 
+   #### Output
+  ![output2](readme_task_images/python-task1_output2.png)
+
 ## Question 3: Bus Count Index Retrieval
 
 Create a Python function named `get_bus_indexes` that takes the `dataset-1.csv` as a DataFrame. The function should identify and return the indices as a list (sorted in ascending order) where the `bus` values are greater than twice the mean value of the `bus` column in the DataFrame.
 
+ ## Answer :
+ ![function3](readme_task_images/python-task1_function3.png)
+
+   #### Output
+  ![output3](readme_task_images/python-task1_output3.png)
+
 ## Question 4: Route Filtering
 Create a python function `filter_routes` that takes the `dataset-1.csv` as a DataFrame. The function should return the sorted list of values of column `route` for which the average of values of `truck` column is greater than 7.
 
+ ## Answer :
+ ![function4](readme_task_images/python-task1_function4.png)
+
+  #### Output
+  ![output4](readme_task_images/python-task1_output4.png)
+  
 ## Question 5: Matrix Value Modification
 
 Create a Python function named `multiply_matrix` that takes the resulting DataFrame from Question 1, as input and modifies each value according to the following logic:
@@ -77,12 +130,23 @@ The function should return the modified DataFrame which has values rounded to 1 
 Sample result dataframe:\
  ![Task 1 Question 5](readme_images/task1-q5.png)
 
+  ## Answer :
+ ![function5](readme_task_images/python-task1_function5.png)
+
+   #### Output
+  ![output5](readme_task_images/python-task1_output5.png)
+
 ## Question 6: Time Check
 
 You are given a dataset, `dataset-2.csv`, containing columns `id`, `id_2`, and timestamp (`startDay`, `startTime`, `endDay`, `endTime`). The goal is to verify the completeness of the time data by checking whether the timestamps for each unique (`id`, `id_2`) pair cover a full 24-hour period (from 12:00:00 AM to 11:59:59 PM) and span all 7 days of the week (from Monday to Sunday).
 
 Create a function that accepts `dataset-2.csv` as a DataFrame and returns a boolean series that indicates if each (`id`, `id_2`) pair has incorrect timestamps. The boolean series must have multi-index (`id`, `id_2`).
 
+ ## Answer :
+ ![function6](readme_task_images/python-task1_function6.png)
+
+   #### Output
+  ![output6](readme_task_images/python-task1_output6.png)
 
 # Python Task 2 
 
@@ -95,17 +159,36 @@ The resulting DataFrame should have cumulative distances along known routes, wit
 Sample result dataframe:\
  ![Task 2 Question 1](readme_images/task2-q1.png)
 
+ ## Answer :
+ ![functionn1](readme_task_images/python-task2_function1.png)
+
+   #### Output
+  ![outputt1](readme_task_images/python-task2_output1.png)
+
+
 ## Question 2: Unroll Distance Matrix
 
 Create a function `unroll_distance_matrix` that takes the DataFrame created in Question 1. The resulting DataFrame should have three columns: columns `id_start`, `id_end`, and `distance`.
 
 All the combinations except for same `id_start` to `id_end` must be present in the rows with their distance values from the input DataFrame.
 
+ ## Answer :
+ ![functionn2](readme_task_images/python-task2_function2.png)
+
+   #### Output
+  ![outputt2](readme_task_images/python-task2_output2.png)
+
 ## Question 3: Finding IDs within Percentage Threshold
 
 Create a function `find_ids_within_ten_percentage_threshold` that takes the DataFrame created in Question 2 and a reference value from the `id_start` column as an integer.
 
 Calculate average distance for the reference value given as an input and return a sorted list of values from `id_start` column which lie within 10% (including ceiling and floor) of the reference value's average.
+
+ ## Answer :
+ ![functionn3](readme_task_images/python-task2_function3.png)
+
+   #### Output
+  ![outputt3](readme_task_images/python-task2_output3.png)
 
 ## Question 4: Calculate Toll Rate
 
@@ -120,6 +203,12 @@ The resulting DataFrame should add 5 columns to the input DataFrame: `moto`, `ca
 
 Sample result dataframe:\
  ![Task 2 Question 4](readme_images/task2-q4.png)
+
+  ## Answer :
+ ![functionn4](readme_task_images/python-task2_function4.png)
+
+   #### Output
+  ![outputt4](readme_task_images/python-task2_output4.png)
 
 ## Question 5: Calculate Time-Based Toll Rates
 
@@ -143,3 +232,9 @@ For each unique (`id_start`, `id_end`) pair, cover a full 24-hour period (from 1
 
 Sample result dataframe:\
  ![Task 2 Question 5](readme_images/task2-q5.png)
+
+ ## Answer :
+ ![functionn5](readme_task_images/python-task2_function5.png)
+
+   #### Output
+  ![outputt5](readme_task_images/python-task2_output5.png)
