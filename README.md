@@ -26,11 +26,17 @@ There should be a folder named `submissions` in the root of your repository. Thi
 - Data that you need to work with is in the folder `datasets`. Store your process outputs in the structure mentioned below
 - Clone the provided GitHub repository.
 - Add the following members as collaborators to your repo
-    - `venkateshn@mapup.ai`
-    - `namanjeetsingh@mapup.ai`
-    - `saranshj@mapup.ai`
-    - `varuna@mapup.ai`
+    - `venkateshn@mapup.ai`- [Awaiting response to accept access]
+    - `namanjeetsingh@mapup.ai` - [Awaiting response to accept access]
+    - `saranshj@mapup.ai` - [Awaiting response to accept access]
+    - `varuna@mapup.ai` - [unable to invite as collaborator as it says user already invited but not displaying in the collaborators page]
 - Submit the link to your repository via the provided Google Form for evaluation.
+
+ #### Screenshot of collaborator access page
+ ![ss1](readme_task_images/collaborator access.png)
+ 
+  
+  
 
 
 ## MapUp - Excel Assessment
