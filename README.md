@@ -33,7 +33,7 @@ There should be a folder named `submissions` in the root of your repository. Thi
 - Submit the link to your repository via the provided Google Form for evaluation.
 
  #### Screenshot of collaborator access page
- ![ss1](readme_task_images/collaborator access.png)
+ ![ss1](readme_task_images/collaboratoraccess.png)
  
   
   
